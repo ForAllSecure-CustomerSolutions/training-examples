@@ -18,6 +18,4 @@ Or to make everything:
 
 Some functions will inevitably trigger more than one CWE. This is due to the nebulous nature of CWEs - one issue can fall under the purview of multiple CWEs.
 
-Example:
-https://staging.internal.forallsecure.com/abrewer/cwesuite/913/1
 
