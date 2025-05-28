@@ -2,10 +2,12 @@
 
 set -ex
 
+HOST=demo-api.mayhem.security/api/v3
+PROTOCOL=https
+
 mapi run \
-     training/petstore/petstore 30 'http://localhost/openapi.json' \
+     training/petstore/petstore 30 "$PROTOCOL://$HOST/openapi.json" \
      --header-auth 'api_key: special-key' \
-     --url 'http://localhost/v3/' \
+     --url "$PROTOCOL://$HOST/" \
      --interactive \
      "${@}" 
-
