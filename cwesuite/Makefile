@@ -1,5 +1,5 @@
 CC=gcc
-CCFLAGS=-w -static
+CCFLAGS=-w -static -fpermissive
 CLANG=clang
 CLANGFLAGS=-fsanitizer=address
 

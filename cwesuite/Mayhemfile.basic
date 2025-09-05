@@ -1,7 +1,6 @@
-
-project: abrewer/cwesuite
+project: cwesuite
 target: basic 
-image: $MAYHEM_DOCKER_REGISTRY/abrewer/cwesuite:latest 
+image: $MAYHEM_DOCKER_REGISTRY/forallsecure-customersolutions/training-examples:cwesuite
 
 advanced_triage: false 
 tasks:
@@ -11,4 +10,4 @@ tasks:
 
 cmds:
 
-  - cmd: /workspace/basic @@
+  - cmd: /basic @@

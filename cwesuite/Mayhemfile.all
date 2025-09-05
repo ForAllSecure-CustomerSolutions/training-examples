@@ -1,13 +1,14 @@
 project: cwesuite
-target: advanced
+target: all
 image: $MAYHEM_DOCKER_REGISTRY/forallsecure-customersolutions/training-examples:cwesuite
+duration: 600
 
 advanced_triage: true
 tasks:
   - name: exploitability_factors
   - name: regression_testing
   - name: behavior_testing
+  - name: coverage_analysis
 
 cmds:
-
-  - cmd: /advanced @@
+  - cmd: /all @@
